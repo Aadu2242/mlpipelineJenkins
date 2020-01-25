@@ -5,7 +5,7 @@ import json
 import numpy as np
 from datetime import datetime
 
-with open('ml/templates/titanic_advisor_template.json') as data_file:
+with open('src/templates/titanic_advisor_template.json') as data_file:
     arguments = json.load(data_file)
 
 
