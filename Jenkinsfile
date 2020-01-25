@@ -3,7 +3,8 @@ node {
 
     stage('Clone repository') {
         /* Cloning the Repository to our Workspace */
-
+        sh 'echo "Hello World"'
+        sh 'source /etc/profile'
         checkout scm
     }
 
