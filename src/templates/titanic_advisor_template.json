@@ -1,0 +1,24 @@
+{
+  "type" : "miner",
+  "version" : "0.1",
+  "name" : "Titanic Advisor",
+  "args" : {
+    "age" : 60
+  },
+  "inputDS" : {
+    "type": "MongoDB",
+    "ip" : "localhost",
+    "port" : 27017,
+    "database" : "imdb",
+    "username" : "",
+    "password" : ""
+  },
+  "outputDS" : {
+    "type": "ArangoDB",
+    "ip" : "localhost",
+    "port" : "8529",
+    "database" : "imdb",
+    "username" : "root",
+    "password" : "root"
+  }
+}

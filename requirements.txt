@@ -1,0 +1,6 @@
+pandas
+nltk
+keras
+sklearn
+pymongo
+python-arango

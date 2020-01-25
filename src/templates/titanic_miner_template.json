@@ -1,0 +1,32 @@
+{
+  "type" : "miner",
+  "version" : "0.1",
+  "name" : "Titanic Miner",
+  "args" : {
+
+  },
+  "inputDS" : {
+    "type": "",
+    "ip" : "",
+    "port" : "",
+    "database" : "",
+    "username" : "",
+    "password" : ""
+  },
+  "metricDS" : {
+    "type": "ArangoDB",
+    "ip" : "localhost",
+    "port" : "8529",
+    "database" : "imdb",
+    "username" : "root",
+    "password" : "root"
+  },
+  "outputDS" : {
+    "type": "MongoDB",
+    "ip" : "localhost",
+    "port" : 27017,
+    "database" : "imdb",
+    "username" : "",
+    "password" : ""
+  }
+}
